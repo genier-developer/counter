@@ -1,0 +1,9 @@
+.Display {
+    padding: 0 8px;
+    color: #394b56;
+    font-size: 20px;
+}
+
+.DisplayError {
+    color: rgba(255, 69, 0, 0.8);
+}

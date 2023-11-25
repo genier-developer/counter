@@ -1,0 +1,13 @@
+.Input, .InputError {
+    font-size: 20px;
+    border: 2px solid #93ACCA;
+    background-color: #C0D6DF;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 8px;
+    width: 40%;
+}
+
+.InputError {
+    border-color: #CC3B40;
+}

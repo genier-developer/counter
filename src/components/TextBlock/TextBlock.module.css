@@ -1,0 +1,13 @@
+.TextBlock {
+    color: #394b56;
+    width: 40%;
+    background-color: #C0D6DF;
+    margin: 5px;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.TextBlockError {
+    border: 1px solid #CC3B40;
+}

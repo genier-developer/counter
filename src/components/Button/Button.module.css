@@ -1,0 +1,30 @@
+/* Общие стили для всех кнопок */
+.Button, .ButtonReset, .ButtonErrorDecrease, .ButtonErrorIncrease {
+    width: 30px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* Стили для обычных кнопок */
+.Button {
+    width: 30px;
+    color: #394b56;
+    background-color: #C0D6DF;
+    border: 2px solid #394b56;
+}
+
+.ButtonReset {
+    color: #394b56;
+    background-color: #88A2AD;
+    width: 100%;
+}
+
+.Button:disabled, .ButtonErrorDecrease:disabled, .ButtonErrorIncrease:disabled {
+    opacity: 0.5; /* Прозрачность в состоянии disabled */
+}
+
+
+
